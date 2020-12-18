@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"SpreadsheetView::SpreadsheetViewPackageTests::ProductTarget" /* SpreadsheetViewPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_97 /* Build configuration list for PBXAggregateTarget "SpreadsheetViewPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_100 /* PBXTargetDependency */,
+			);
+			name = SpreadsheetViewPackageTests;
+			productName = SpreadsheetViewPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		OBJ_106 /* CellRangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* CellRangeTests.swift */; };
+		OBJ_107 /* CellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* CellTests.swift */; };
+		OBJ_108 /* ConfigurationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* ConfigurationTests.swift */; };
+		OBJ_109 /* DataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* DataSourceTests.swift */; };
+		OBJ_110 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* HelperFunctions.swift */; };
+		OBJ_111 /* HelperObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* HelperObjects.swift */; };
+		OBJ_112 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* AppDelegate.swift */; };
+		OBJ_113 /* MergedCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* MergedCellTests.swift */; };
+		OBJ_114 /* PerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* PerformanceTests.swift */; };
+		OBJ_115 /* ScrollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* ScrollTests.swift */; };
+		OBJ_116 /* SelectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* SelectionTests.swift */; };
+		OBJ_117 /* SpreadsheetViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* SpreadsheetViewTests.swift */; };
+		OBJ_118 /* ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* ViewTests.swift */; };
+		OBJ_119 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* XCTestManifests.swift */; };
+		OBJ_121 /* SpreadsheetView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SpreadsheetView::SpreadsheetView::Product" /* SpreadsheetView.framework */; };
+		OBJ_66 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Address.swift */; };
+		OBJ_67 /* Array+BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Array+BinarySearch.swift */; };
+		OBJ_68 /* Borders.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Borders.swift */; };
+		OBJ_69 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Cell.swift */; };
+		OBJ_70 /* CellRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* CellRange.swift */; };
+		OBJ_71 /* CircularScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* CircularScrolling.swift */; };
+		OBJ_72 /* Gridlines.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* Gridlines.swift */; };
+		OBJ_73 /* IndexPath+Column.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* IndexPath+Column.swift */; };
+		OBJ_74 /* LayoutEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* LayoutEngine.swift */; };
+		OBJ_75 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* Location.swift */; };
+		OBJ_76 /* ReuseQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* ReuseQueue.swift */; };
+		OBJ_77 /* ScrollPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* ScrollPosition.swift */; };
+		OBJ_78 /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* ScrollView.swift */; };
+		OBJ_79 /* SpreadsheetView+CirclularScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* SpreadsheetView+CirclularScrolling.swift */; };
+		OBJ_80 /* SpreadsheetView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* SpreadsheetView+Layout.swift */; };
+		OBJ_81 /* SpreadsheetView+Touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* SpreadsheetView+Touches.swift */; };
+		OBJ_82 /* SpreadsheetView+UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* SpreadsheetView+UIScrollView.swift */; };
+		OBJ_83 /* SpreadsheetView+UIScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* SpreadsheetView+UIScrollViewDelegate.swift */; };
+		OBJ_84 /* SpreadsheetView+UISnapshotting.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* SpreadsheetView+UISnapshotting.swift */; };
+		OBJ_85 /* SpreadsheetView+UIViewHierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* SpreadsheetView+UIViewHierarchy.swift */; };
+		OBJ_86 /* SpreadsheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* SpreadsheetView.swift */; };
+		OBJ_87 /* SpreadsheetViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* SpreadsheetViewDataSource.swift */; };
+		OBJ_88 /* SpreadsheetViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* SpreadsheetViewDelegate.swift */; };
+		OBJ_95 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		526E6872258D42F800AC1BEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SpreadsheetView::SpreadsheetView";
+			remoteInfo = SpreadsheetView;
+		};
+		526E6875258D42FA00AC1BEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SpreadsheetView::SpreadsheetViewTests";
+			remoteInfo = SpreadsheetViewTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		OBJ_10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		OBJ_11 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		OBJ_12 /* Array+BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+BinarySearch.swift"; sourceTree = "<group>"; };
+		OBJ_13 /* Borders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Borders.swift; sourceTree = "<group>"; };
+		OBJ_14 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		OBJ_15 /* CellRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellRange.swift; sourceTree = "<group>"; };
+		OBJ_16 /* CircularScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularScrolling.swift; sourceTree = "<group>"; };
+		OBJ_17 /* Gridlines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gridlines.swift; sourceTree = "<group>"; };
+		OBJ_18 /* IndexPath+Column.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IndexPath+Column.swift"; sourceTree = "<group>"; };
+		OBJ_19 /* LayoutEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutEngine.swift; sourceTree = "<group>"; };
+		OBJ_20 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		OBJ_21 /* ReuseQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseQueue.swift; sourceTree = "<group>"; };
+		OBJ_22 /* ScrollPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollPosition.swift; sourceTree = "<group>"; };
+		OBJ_23 /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
+		OBJ_24 /* SpreadsheetView+CirclularScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpreadsheetView+CirclularScrolling.swift"; sourceTree = "<group>"; };
+		OBJ_25 /* SpreadsheetView+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpreadsheetView+Layout.swift"; sourceTree = "<group>"; };
+		OBJ_26 /* SpreadsheetView+Touches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpreadsheetView+Touches.swift"; sourceTree = "<group>"; };
+		OBJ_27 /* SpreadsheetView+UIScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpreadsheetView+UIScrollView.swift"; sourceTree = "<group>"; };
+		OBJ_28 /* SpreadsheetView+UIScrollViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpreadsheetView+UIScrollViewDelegate.swift"; sourceTree = "<group>"; };
+		OBJ_29 /* SpreadsheetView+UISnapshotting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpreadsheetView+UISnapshotting.swift"; sourceTree = "<group>"; };
+		OBJ_30 /* SpreadsheetView+UIViewHierarchy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpreadsheetView+UIViewHierarchy.swift"; sourceTree = "<group>"; };
+		OBJ_31 /* SpreadsheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadsheetView.swift; sourceTree = "<group>"; };
+		OBJ_32 /* SpreadsheetViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadsheetViewDataSource.swift; sourceTree = "<group>"; };
+		OBJ_33 /* SpreadsheetViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadsheetViewDelegate.swift; sourceTree = "<group>"; };
+		OBJ_36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		OBJ_37 /* CellRangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellRangeTests.swift; sourceTree = "<group>"; };
+		OBJ_38 /* CellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTests.swift; sourceTree = "<group>"; };
+		OBJ_39 /* ConfigurationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationTests.swift; sourceTree = "<group>"; };
+		OBJ_40 /* DataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceTests.swift; sourceTree = "<group>"; };
+		OBJ_41 /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		OBJ_42 /* HelperObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperObjects.swift; sourceTree = "<group>"; };
+		OBJ_44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		OBJ_45 /* MergedCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergedCellTests.swift; sourceTree = "<group>"; };
+		OBJ_46 /* PerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceTests.swift; sourceTree = "<group>"; };
+		OBJ_47 /* ScrollTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTests.swift; sourceTree = "<group>"; };
+		OBJ_48 /* SelectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionTests.swift; sourceTree = "<group>"; };
+		OBJ_49 /* SpreadsheetViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadsheetViewTests.swift; sourceTree = "<group>"; };
+		OBJ_50 /* ViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTests.swift; sourceTree = "<group>"; };
+		OBJ_51 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_55 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = SOURCE_ROOT; };
+		OBJ_56 /* docs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = docs; sourceTree = SOURCE_ROOT; };
+		OBJ_57 /* Examples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Examples; sourceTree = SOURCE_ROOT; };
+		OBJ_58 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		OBJ_59 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_60 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_9 /* SpreadsheetView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpreadsheetView.h; sourceTree = "<group>"; };
+		"SpreadsheetView::SpreadsheetView::Product" /* SpreadsheetView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpreadsheetView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SpreadsheetView::SpreadsheetViewTests::Product" /* SpreadsheetViewTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SpreadsheetViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_121 /* SpreadsheetView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_34 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_35 /* SpreadsheetViewTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_35 /* SpreadsheetViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_36 /* Info.plist */,
+				OBJ_37 /* CellRangeTests.swift */,
+				OBJ_38 /* CellTests.swift */,
+				OBJ_39 /* ConfigurationTests.swift */,
+				OBJ_40 /* DataSourceTests.swift */,
+				OBJ_41 /* HelperFunctions.swift */,
+				OBJ_42 /* HelperObjects.swift */,
+				OBJ_43 /* HostApp */,
+				OBJ_45 /* MergedCellTests.swift */,
+				OBJ_46 /* PerformanceTests.swift */,
+				OBJ_47 /* ScrollTests.swift */,
+				OBJ_48 /* SelectionTests.swift */,
+				OBJ_49 /* SpreadsheetViewTests.swift */,
+				OBJ_50 /* ViewTests.swift */,
+				OBJ_51 /* XCTestManifests.swift */,
+			);
+			name = SpreadsheetViewTests;
+			path = Tests/SpreadsheetViewTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_43 /* HostApp */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_44 /* AppDelegate.swift */,
+			);
+			path = HostApp;
+			sourceTree = "<group>";
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_34 /* Tests */,
+				OBJ_52 /* Products */,
+				OBJ_55 /* Resources */,
+				OBJ_56 /* docs */,
+				OBJ_57 /* Examples */,
+				OBJ_58 /* LICENSE */,
+				OBJ_59 /* CHANGELOG.md */,
+				OBJ_60 /* README.md */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"SpreadsheetView::SpreadsheetViewTests::Product" /* SpreadsheetViewTests.xctest */,
+				"SpreadsheetView::SpreadsheetView::Product" /* SpreadsheetView.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* SpreadsheetView */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* SpreadsheetView */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* SpreadsheetView.h */,
+				OBJ_10 /* Info.plist */,
+				OBJ_11 /* Address.swift */,
+				OBJ_12 /* Array+BinarySearch.swift */,
+				OBJ_13 /* Borders.swift */,
+				OBJ_14 /* Cell.swift */,
+				OBJ_15 /* CellRange.swift */,
+				OBJ_16 /* CircularScrolling.swift */,
+				OBJ_17 /* Gridlines.swift */,
+				OBJ_18 /* IndexPath+Column.swift */,
+				OBJ_19 /* LayoutEngine.swift */,
+				OBJ_20 /* Location.swift */,
+				OBJ_21 /* ReuseQueue.swift */,
+				OBJ_22 /* ScrollPosition.swift */,
+				OBJ_23 /* ScrollView.swift */,
+				OBJ_24 /* SpreadsheetView+CirclularScrolling.swift */,
+				OBJ_25 /* SpreadsheetView+Layout.swift */,
+				OBJ_26 /* SpreadsheetView+Touches.swift */,
+				OBJ_27 /* SpreadsheetView+UIScrollView.swift */,
+				OBJ_28 /* SpreadsheetView+UIScrollViewDelegate.swift */,
+				OBJ_29 /* SpreadsheetView+UISnapshotting.swift */,
+				OBJ_30 /* SpreadsheetView+UIViewHierarchy.swift */,
+				OBJ_31 /* SpreadsheetView.swift */,
+				OBJ_32 /* SpreadsheetViewDataSource.swift */,
+				OBJ_33 /* SpreadsheetViewDelegate.swift */,
+			);
+			name = SpreadsheetView;
+			path = Sources/SpreadsheetView;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"SpreadsheetView::SpreadsheetView" /* SpreadsheetView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_62 /* Build configuration list for PBXNativeTarget "SpreadsheetView" */;
+			buildPhases = (
+				OBJ_65 /* Sources */,
+				OBJ_89 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpreadsheetView;
+			productName = SpreadsheetView;
+			productReference = "SpreadsheetView::SpreadsheetView::Product" /* SpreadsheetView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"SpreadsheetView::SpreadsheetViewTests" /* SpreadsheetViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_102 /* Build configuration list for PBXNativeTarget "SpreadsheetViewTests" */;
+			buildPhases = (
+				OBJ_105 /* Sources */,
+				OBJ_120 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_122 /* PBXTargetDependency */,
+			);
+			name = SpreadsheetViewTests;
+			productName = SpreadsheetViewTests;
+			productReference = "SpreadsheetView::SpreadsheetViewTests::Product" /* SpreadsheetViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"SpreadsheetView::SwiftPMPackageDescription" /* SpreadsheetViewPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_91 /* Build configuration list for PBXNativeTarget "SpreadsheetViewPackageDescription" */;
+			buildPhases = (
+				OBJ_94 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpreadsheetViewPackageDescription;
+			productName = SpreadsheetViewPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "SpreadsheetView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"SpreadsheetView::SpreadsheetView" /* SpreadsheetView */,
+				"SpreadsheetView::SwiftPMPackageDescription" /* SpreadsheetViewPackageDescription */,
+				"SpreadsheetView::SpreadsheetViewPackageTests::ProductTarget" /* SpreadsheetViewPackageTests */,
+				"SpreadsheetView::SpreadsheetViewTests" /* SpreadsheetViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_106 /* CellRangeTests.swift in Sources */,
+				OBJ_107 /* CellTests.swift in Sources */,
+				OBJ_108 /* ConfigurationTests.swift in Sources */,
+				OBJ_109 /* DataSourceTests.swift in Sources */,
+				OBJ_110 /* HelperFunctions.swift in Sources */,
+				OBJ_111 /* HelperObjects.swift in Sources */,
+				OBJ_112 /* AppDelegate.swift in Sources */,
+				OBJ_113 /* MergedCellTests.swift in Sources */,
+				OBJ_114 /* PerformanceTests.swift in Sources */,
+				OBJ_115 /* ScrollTests.swift in Sources */,
+				OBJ_116 /* SelectionTests.swift in Sources */,
+				OBJ_117 /* SpreadsheetViewTests.swift in Sources */,
+				OBJ_118 /* ViewTests.swift in Sources */,
+				OBJ_119 /* XCTestManifests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_66 /* Address.swift in Sources */,
+				OBJ_67 /* Array+BinarySearch.swift in Sources */,
+				OBJ_68 /* Borders.swift in Sources */,
+				OBJ_69 /* Cell.swift in Sources */,
+				OBJ_70 /* CellRange.swift in Sources */,
+				OBJ_71 /* CircularScrolling.swift in Sources */,
+				OBJ_72 /* Gridlines.swift in Sources */,
+				OBJ_73 /* IndexPath+Column.swift in Sources */,
+				OBJ_74 /* LayoutEngine.swift in Sources */,
+				OBJ_75 /* Location.swift in Sources */,
+				OBJ_76 /* ReuseQueue.swift in Sources */,
+				OBJ_77 /* ScrollPosition.swift in Sources */,
+				OBJ_78 /* ScrollView.swift in Sources */,
+				OBJ_79 /* SpreadsheetView+CirclularScrolling.swift in Sources */,
+				OBJ_80 /* SpreadsheetView+Layout.swift in Sources */,
+				OBJ_81 /* SpreadsheetView+Touches.swift in Sources */,
+				OBJ_82 /* SpreadsheetView+UIScrollView.swift in Sources */,
+				OBJ_83 /* SpreadsheetView+UIScrollViewDelegate.swift in Sources */,
+				OBJ_84 /* SpreadsheetView+UISnapshotting.swift in Sources */,
+				OBJ_85 /* SpreadsheetView+UIViewHierarchy.swift in Sources */,
+				OBJ_86 /* SpreadsheetView.swift in Sources */,
+				OBJ_87 /* SpreadsheetViewDataSource.swift in Sources */,
+				OBJ_88 /* SpreadsheetViewDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_95 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SpreadsheetView::SpreadsheetViewTests" /* SpreadsheetViewTests */;
+			targetProxy = 526E6875258D42FA00AC1BEB /* PBXContainerItemProxy */;
+		};
+		OBJ_122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SpreadsheetView::SpreadsheetView" /* SpreadsheetView */;
+			targetProxy = 526E6872258D42F800AC1BEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SpreadsheetView.xcodeproj/SpreadsheetViewTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SpreadsheetViewTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SpreadsheetView.xcodeproj/SpreadsheetViewTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SpreadsheetViewTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SpreadsheetView.xcodeproj/SpreadsheetView_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SpreadsheetView;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SpreadsheetView;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SpreadsheetView.xcodeproj/SpreadsheetView_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SpreadsheetView;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SpreadsheetView;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 5.3.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 5.3.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_102 /* Build configuration list for PBXNativeTarget "SpreadsheetViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_103 /* Debug */,
+				OBJ_104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "SpreadsheetView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_62 /* Build configuration list for PBXNativeTarget "SpreadsheetView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_63 /* Debug */,
+				OBJ_64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_91 /* Build configuration list for PBXNativeTarget "SpreadsheetViewPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_92 /* Debug */,
+				OBJ_93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_97 /* Build configuration list for PBXAggregateTarget "SpreadsheetViewPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_98 /* Debug */,
+				OBJ_99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
