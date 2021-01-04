@@ -80,6 +80,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D9D661125A35B5000F8AB63 /* Tests-HostApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Tests-HostApp-Info.plist"; sourceTree = "<group>"; };
+		4D9D661225A35B5000F8AB63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D9D661525A35B5000F8AB63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		OBJ_10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		OBJ_11 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		OBJ_12 /* Array+BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+BinarySearch.swift"; sourceTree = "<group>"; };
@@ -104,7 +107,7 @@
 		OBJ_31 /* SpreadsheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadsheetView.swift; sourceTree = "<group>"; };
 		OBJ_32 /* SpreadsheetViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadsheetViewDataSource.swift; sourceTree = "<group>"; };
 		OBJ_33 /* SpreadsheetViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadsheetViewDelegate.swift; sourceTree = "<group>"; };
-		OBJ_36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		OBJ_36 /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		OBJ_37 /* CellRangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellRangeTests.swift; sourceTree = "<group>"; };
 		OBJ_38 /* CellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTests.swift; sourceTree = "<group>"; };
 		OBJ_39 /* ConfigurationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationTests.swift; sourceTree = "<group>"; };
@@ -150,6 +153,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D9D661325A35B5000F8AB63 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				4D9D661425A35B5000F8AB63 /* LaunchScreen.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
 		OBJ_34 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,7 +172,6 @@
 		OBJ_35 /* SpreadsheetViewTests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_36 /* Info.plist */,
 				OBJ_37 /* CellRangeTests.swift */,
 				OBJ_38 /* CellTests.swift */,
 				OBJ_39 /* ConfigurationTests.swift */,
@@ -184,15 +194,20 @@
 		OBJ_43 /* HostApp */ = {
 			isa = PBXGroup;
 			children = (
+				4D9D661225A35B5000F8AB63 /* Assets.xcassets */,
+				4D9D661325A35B5000F8AB63 /* Base.lproj */,
 				OBJ_44 /* AppDelegate.swift */,
 			);
 			path = HostApp;
 			sourceTree = "<group>";
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
+				OBJ_10 /* Info.plist */,
+				OBJ_36 /* Tests-Info.plist */,
+				4D9D661125A35B5000F8AB63 /* Tests-HostApp-Info.plist */,
 				OBJ_7 /* Sources */,
 				OBJ_34 /* Tests */,
 				OBJ_52 /* Products */,
@@ -203,7 +218,6 @@
 				OBJ_59 /* CHANGELOG.md */,
 				OBJ_60 /* README.md */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_52 /* Products */ = {
@@ -227,7 +241,6 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_9 /* SpreadsheetView.h */,
-				OBJ_10 /* Info.plist */,
 				OBJ_11 /* Address.swift */,
 				OBJ_12 /* Array+BinarySearch.swift */,
 				OBJ_13 /* Borders.swift */,
@@ -321,8 +334,9 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_52 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -409,6 +423,17 @@
 			targetProxy = 526E6872258D42F800AC1BEB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D9D661425A35B5000F8AB63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D9D661525A35B5000F8AB63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		OBJ_103 /* Debug */ = {
